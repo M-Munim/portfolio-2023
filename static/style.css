@@ -48,6 +48,9 @@ hr {
     font-family: 'Caveat', cursive;
 }
 
+.initial{
+    margin-top: 10%;
+}
 /*  */
 
 #element {
@@ -174,7 +177,9 @@ hr {
     transform: scale(1.01);
 }
 
-
+.bg-purple{
+    background-color: purple;
+}
 
 /* hire  me*/
 
@@ -311,88 +316,6 @@ hr {
 
 
 /* footer */
-
 footer {
-    background-color: purple;
-    height: auto;
-    margin-top: auto;
-}
-
-footer a {
-    text-decoration: none;
     color: #fff;
-}
-
-footer li {
-    list-style: none;
-}
-.footer {
-    display: flex;
-    padding: 20px 100px;
-    justify-content: space-between;
-    max-width: 90%;
-    margin: auto;
-}
-
-.first {
-    max-width: 25%;
-}
-
-.first-dec-txt {
-    font-size: 13px;
-    text-align: justify;
-    padding: 3px 10px;
-}
-
-.second .icons .fa-brands {
-    padding: 6px;
-    font-size: 1.2rem;
-    display: block;
-}
-
-.second .icons .fa-brands:hover {
-    color: #979595;
-    transition: .3s;
-    transform: scale(1.1);
-}
-
-.second {
-    min-width: 20%;
-}
-
-.third {
-    min-width: 20%;
-}
-
-.third ul li a {
-    font-family: 'Alef', sans-serif;
-    font-size: 13px;
-    margin-left: -15px;
-    margin-top: 10px;
-}
-
-.third ul li a:hover {
-    color: #979595;
-    transition: .2s;
-}
-
-.fourth {
-    min-width: 20%;
-}
-
-
-address {
-    padding: 5px;
-    font-size: 13px;
-}
-
-.footer address img {
-    padding: 1px;
-    width: 40px;
-    margin-left: 5px;
-}
-
-footer .text-center {
-    text-align: center;
-    padding: 10px 0px;
 }
