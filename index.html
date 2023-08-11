@@ -23,7 +23,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -49,21 +49,18 @@
     <!-- navbar -->
 
     <!-- section1 -->
-
     <section class="container initial">
         <div class="row first-sec">
-            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5 col-12 offset-1 offset-lg-0 left-sec" data-aos="fade-down"
+            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5 col-11 offset-1 offset-lg-0 left-sec" data-aos="fade-down"
                 data-aos-duration="1000">
                 My Name is <h2 class="name"><span class="text-purple">MUNIM</span></h2> <br>
                 <div>and i am a <br>
                     <span id="element"></span>
                 </div>
                 <a href="static/cv.pdf" class="download-btn" download=""><button> Download Cv</button></a>
-                <!-- <a class="download-btn" href=""><button>Download Cv</button></a> -->
                 <a class="git-btn" href="https://github.com/M-Munim" target="_blank"><button>Github</button></a>
-
             </div>
-            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5 col-12 offset-1 offset-lg-0 right-sec" data-aos="fade-up"
+            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5 col-11 offset-1 offset-lg-0 right-sec" data-aos="fade-up"
                 data-aos-duration="1000">
                 <img src="static/imgs/bg img.png" alt="">
             </div>
@@ -175,26 +172,47 @@
             <h2 id="services" class="fw-bold mb-4">Services</h2>
             <hr class="head">
         </div>
-        <div class="box-container">
-            <div class="box" data-aos="zoom-out-up">
-                <img class="serv-img" src="static/imgs/Web-Design.png" alt="Service Image" loading="lazy">
-                <h3>Web Designing</h3>
-                <p>I can design website templates for you.</p>
-                <a href="#contact-me" class="btn"> Hire Me</a>
-            </div>
-
-            <div class="box" data-aos="zoom-out-down">
-                <img class="serv-img" src="static/imgs/web dev.png" alt="Service Image" loading="lazy">
-                <h3>Web Development</h3>
-                <p>I can develope front end site for you. </p>
-                <a href="#contact-me" class="btn"> Hire Me</a>
-            </div>
-
-            <div class="box" data-aos="zoom-out-up">
-                <img class="serv-img" src="static/imgs/graphics.png" alt="Service Image" loading="lazy">
-                <h3>Graphics Designing</h3>
-                <p>i can design logos, posts & cards for you.</p>
-                <a href="#contact-me" class="btn"> Hire Me</a>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col  service-card">
+                    <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Web Designing</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="serv-img img-fluid w-50" src="static/imgs/Web-Design.png" alt="Service Image"
+                                loading="lazy">
+                            <p>i can design web templates for you.</p>
+                            <a href="#contact-me" class="btn text-white border-white"> Hire Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col service-card">
+                    <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Web Development</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="serv-img img-fluid w-50" src="static/imgs/web dev.png" alt="Service Image"
+                                loading="lazy">
+                            <p>i can develop responsive sites for you.</p>
+                            <a href="#contact-me" class="btn text-white border-white"> Hire Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col service-card">
+                    <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Graphics Designing</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="serv-img img-fluid w-50" src="static/imgs/graphics.png" alt="Service Image"
+                                loading="lazy">
+                            <p>i can design logos, posts & cards for you.</p>
+                            <a href="#contact-me" class="btn text-white border-white"> Hire Me</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -206,45 +224,50 @@
             <h2 id="projects" class="fw-bold mb-4">Projects</h2>
             <hr class="head">
         </div>
-        <div class="box-container" data-aos="fade-down" data-aos-duration="1000">
-            <div class="box">
-                <img class="proj-img" src="static/imgs/work1.png" alt="" loading="lazy">
-
-                <p> E-COMMERCE WEBSITE</p>
-                <a href="https://github.com/M-Munim" target="_blank" class="code text-purple">Source Code</a>
-            </div>
-
-            <div class="box">
-                <img class="proj-img" src="static/imgs/work2.png" alt="" loading="lazy">
-
-                <p> E-COMMERCE WEBSITE</p>
-                <a href="https://github.com/M-Munim" target="_blank" class="code text-purple">Source Code</a>
-            </div>
-
-            <div class="box">
-                <img class="proj-img" src="static/imgs/work3.png" alt="" loading="lazy">
-
-                <p> E-COMMERCE WEBSITE</p>
-                <a href="https://github.com/M-Munim" target="_blank" class="code text-purple">Source Code</a>
-            </div>
-
-            <div class="box">
-                <img class="proj-img" src="static/imgs/work4.png" alt="" loading="lazy">
-
-                <p> E-COMMERCE WEBSITE</p>
-                <a href="https://github.com/M-Munim" target="_blank" class="code text-purple">Source Code</a>
-            </div>
-            <div class="box">
-                <img class="proj-img" src="static/imgs/work5.png" alt="" loading="lazy">
-
-                <p> E-COMMERCE WEBSITE</p>
-                <a href="https://github.com/M-Munim" target="_blank" class="code text-purple">Source Code</a>
-            </div>
-            <div class="box">
-                <img class="proj-img" src="static/imgs/work6.png" alt="" loading="lazy">
-
-                <p> E-COMMERCE WEBSITE</p>
-                <a href="https://github.com/M-Munim" target="_blank" class="code text-purple">Source Code</a>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col  service-card">
+                    <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">E COMMERCE STORE</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="serv-img img-fluid mb-4" src="static/imgs/work1.png" alt="Service Image"
+                                loading="lazy">
+                            <p>Designed a store with home, login, cart etc.</p>
+                            <a href="https://github.com/M-Munim" target="_blank"
+                                class="btn text-white border-white">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col service-card">
+                    <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">STATIONARY STORE</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="serv-img img-fluid mb-4" src="static/imgs/work4.png" alt="Service Image"
+                                loading="lazy">
+                            <p>a site where you can buy stationary online.</p>
+                            <a href="https://github.com/M-Munim" target="_blank"
+                                class="btn text-white border-white">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col service-card">
+                    <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">ACADEMY SITE</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="serv-img img-fluid mb-4" src="static/imgs/work3.png" alt="Service Image"
+                                loading="lazy">
+                            <p>academy site where youe can enroll yourself.</p>
+                            <a href="https://github.com/M-Munim" target="_blank"
+                                class="btn text-white border-white">Source Code</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -310,7 +333,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Form Starts -->
                 <div class="col-md-7" data-aos="zoom-in">
                     <div class="contact-form">
                         <div class="container">
@@ -347,7 +369,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Form Ends -->
             </div>
 
         </div>
@@ -355,23 +376,10 @@
 
 
     <!-- footer started -->
-    <footer class="container-fluid  bg-purple d-flex flex-wrap justify-content-between align-items-center py-3 mt-2">
-        <p class="col-md-4 mb-0 text-white ms-5">© 2023 Munim, Pakistan</p>
-        <!-- 
-        <a href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg>
-        </a> -->
+    <footer class="container-fluid  py-3 mt-2 mb-4">
+        <p class=" mb-0 text-white ms-5">© 2023 Munim, Pakistan</p>
 
-        <ul class="nav col-md-4 justify-content-end me-5">
-            <li class="nav-item"><a href="/" class="nav-link px-2 text-white">Home</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link px-2 text-white">About</a></li>
-            <li class="nav-item"><a href="#service" class="nav-link px-2 text-white">Services</a></li>
-            <li class="nav-item"><a href="#project" class="nav-link px-2 text-white">Projects</a></li>
-            <li class="nav-item"><a href="#contact-me" class="nav-link px-2 text-white">Contact Me</a></li>
-        </ul>
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

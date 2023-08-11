@@ -35,6 +35,10 @@ hr {
     border: 2px solid white;
 }
 
+.navbar-toggler i{
+    color: #fff;
+}
+
 .navbar {
     background-color: rgba(8, 8, 58, 1);
 }
@@ -68,7 +72,7 @@ hr {
 }
 
 .right-sec img {
-    width: 75%;
+    width: 70%;
     height: auto;
 
 }
@@ -114,73 +118,6 @@ hr {
     padding-top: 110px;
     font-size: 2rem;
 }
-
-/* cards */
-
-.box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
-    gap: 15px;
-    max-width: 85%;
-    margin: 5% auto 100px auto;
-}
-
-.box a{
-    text-decoration: none;
-}
-.box-container .box {
-    box-shadow: 0 5px 10px rgba(122, 122, 122, 0.3);
-    border-radius: 5px;
-    background-color: rgb(0, 0, 33);
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-.box-container .box img {
-    width: 100%;
-}
-
-.box-container .box .serv-img {
-    width: 65%;
-}
-
-.box-container .box h3 {
-    color: #fff;
-    font-size: 1.6rem;
-    padding: 10px 0;
-}
-
-.box-container .box p {
-    color: #777;
-    font-size: 1.3rem;
-    padding: 10px 0px;
-}
-
-.box-container .box .btn {
-    margin-top: 10px;
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    font-size: 1.1rem;
-    border-radius: 5px;
-    padding: 8px 25px;
-}
-
-.box-container .box .btn:hover {
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-}
-
-.box-container .box:hover {
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, .3);
-    transform: scale(1.01);
-}
-
-.bg-purple{
-    background-color: purple;
-}
-
 /* hire  me*/
 
 .hire-body {
